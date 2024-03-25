@@ -1,0 +1,51 @@
+
+.todolist {
+    border-radius: 0.375rem;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+    padding: 1.5rem;
+    margin: 3rem auto 0;
+}
+
+.error {
+    border: 1px solid red;
+}
+
+.errorMessage {
+    font-size: 12px;
+    color: red;
+}
+
+ul {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.taskItem {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 1.5rem;
+    height: 4rem;
+    border-bottom-width: 1px;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.statusesButtonGroup {
+    display: flex;
+    justify-content: center;
+    padding-top: 1.5rem;
+    font-size: 0.875rem;
+}
+
+.filterButton {
+    cursor: pointer;
+    border: none;
+    color: #a2a7b2;
+    background-color: transparent;
+    font-size: 0.875rem;
+}
+
+.activeButton {
+    color: #3988c9;
+    font-weight: 700;
+}
